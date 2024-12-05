@@ -1,0 +1,30 @@
+{
+    "name": "elliottrichmond/satohdojo",
+    "type": "package",
+    "description": "The theme for satohdojo",
+    "keywords": [
+        "WordPress",
+        "Themes"
+    ],
+    "homepage": "https://github.com/WordPress/twentytwentyfive",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Elliott Richmond",
+            "homepage": "https://elliottrichmond.co.uk"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.10",
+        "wp-coding-standards/wpcs": "^3.1"
+    },
+    "scripts": {
+        "format": "phpcbf --standard=phpcs.xml.dist --report-summary --report-source",
+        "lint": "phpcs --standard=phpcs.xml.dist"
+    }
+}

@@ -1,0 +1,9 @@
+.wp-block-heading.is-style-append-icon {
+    position: relative;
+}
+.wp-block-heading.is-style-append-icon::after {
+    content: url('/wp-content/themes/satoh-dojo/assets/images/arrow.png');
+    margin-left: 8px;
+    position: absolute;
+    bottom: -5px;
+}
