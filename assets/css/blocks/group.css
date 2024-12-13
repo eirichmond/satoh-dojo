@@ -1,9 +1,9 @@
 body header.wp-block-template-part > #group-navigation {
-    transition: all 2s;
+    transition: all .3s;
 }
 
 body.scrolled header.wp-block-template-part > #group-navigation {
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
-    background: var(--wp--preset--color--secondary)
+    background: var(--wp--preset--color--primary)
 }
